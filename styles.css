@@ -1,0 +1,192 @@
+/*CSS for background main*/
+#sparks {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(assets/grunge.jpg) no-repeat;
+    background-size: cover;
+}
+
+#img {
+
+    background-color: rgba(255, 255, 255, .2);
+
+}
+
+.wrapper {
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+}
+
+.top {
+    font-family: 'Quicksand', sans-serif;
+    color: orangered;
+    font-size: 10rem;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    margin-top: 17%;
+
+}
+
+.info {
+    color: orangered;
+    text-align: center;
+    font-size: 20px;
+}
+
+.josh {
+
+    text-align: center;
+    color: orangered;
+    font-size: 25px;
+
+}
+
+#resume {
+
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: navajowhite;
+
+}
+
+#exp {
+
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: navajowhite;
+
+}
+
+.contact {
+
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: navajowhite;
+
+}
+
+a {
+    color: #3176B1;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:navajowhite;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#follow {
+
+    color: orangered;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+
+}
+
+.social {
+
+    text-align: center;
+}
+
+.fa-twitter, .fa-linkedin, .fa-youtube-play {
+    padding-right: 15px;
+    color: #3176B1;
+    padding-bottom: 15px;
+}
+
+/*CSS for loading*/
+#loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(assets/grunge.jpg) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+        background: url(assets/grunge.jpg) #000 no-repeat center center fixed;
+    }
+
+    #loading {
+        display: none;
+    }
+}
+
+
+/*CSS for the resume parallax effect*/
+
+.top2 {
+    color: navajowhite;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.wrapper2{
+
+    color:navajowhite;
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    opacity: 0;
+    transform: translateX(150px);
+    transition: all 0.3s ease-in-out;
+
+}
+
+div.is-showing {
+
+    opacity: 1;
+    transform: translateX(0px);
+
+}
+
+
+.wrapper2 > div {
+    position:relative
+}
+
+#work, #projects, #tech, #education, #title {
+    font-size: 30px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+
+.bold {
+
+font-size:25px
+}
+
+
+
+
+
+
+
+
+

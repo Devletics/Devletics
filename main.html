@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Devletics</title>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+<body ng-app="resume">
+<div class="wrapper">
+    <video id="sparks" muted autoplay loop>
+        <source src="assets/sparks.mp4" type="video/mp4"/>
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="top">
+        <div class="josh"><span>Hi, I'm Josh</span> - also known as:</div>
+        Devletics
+    </div>
+    <div class='info'>  I'm passionate about developing sleek and responsive applications, and learning the latest and greatest technologies. I am an engineer, web developer, pilot, fitness enthusiast, and video
+        producer. You can find my <span id="resume"><u><a ui-sref="resume">resume</a></u></span> and examples of my <span id="exp"><a href="https://liftfriendly.firebaseapp.com/" ><u>work.</a></u></span>
+        I'm always open to new opportunities so feel free to <span class="contact"><u><a href="mailto:jfluke717@gmail.com">reach out.</a></u></span>
+    </div>
+
+
+    <div id="content" ui-view></div>
+
+    <div id="follow">Connect with me to see what I'm up to </div>
+    <div class="social"><a href="https://www.twitter.com/devletics"><i class="fa fa-twitter fa-3x"></i></a> <a href="https://www.linkedin.com/in/joshuafluke"><i class="fa fa-linkedin fa-3x"></i></a> <a href="https://github.com/Devletics"><i class="fa fa-github fa-3x"></i></a></div>
+
+
+    </div>
+
+
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<script src="app.js"></script>
+<script src="route/resume.js"></script>
+</html>
